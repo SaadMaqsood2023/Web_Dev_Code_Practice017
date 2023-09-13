@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Border</title>
+<style>
+	.main{
+	/* border: 2px (solid | dashed | dotted)
+	   color|colorcode; */
+	width: 700px;
+	height: 400px;
+	background: #fedcba; 
+	border: 5px solid red;
+	}
+	.main1{
+	width: 400px;
+	height: 200px;
+	border-left: 5px solid black;
+	border-right: 5px solid yellow;
+	border-top:5px solid blue;
+	border-bottom:5px solid green;
+	}
+	.row1{
+	width: 380px; /*width="390px" minus 10 */
+	height: 160px; /*200-(borders10)-(top15+bottom15)*/ 
+	border: 5px solid red;
+	/*
+	margin: 5px;
+	margin-top: 15px;
+	margin-bottom: 15px;*/
+	margin: 15px 5px 15px 5px;
+	text-align: center;
+	}
+</style>
+</head>
+<body>
+	<div class="main">
+	SAAD MAQSOOD
+	</div>
+	<br/>
+	<div class="main1">
+		<div class="row1">
+		Welcome to RuBru
+		</div>
+	</div>
+</body>
+</html>

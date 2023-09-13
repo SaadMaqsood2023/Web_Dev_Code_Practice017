@@ -1,0 +1,16 @@
+.main{
+	width: 1000px;
+	height: 400px;
+	background: #FFF000;
+	font-size: 50px;
+	text-align: center;
+	text-decoration: underline;
+	color: #aebcde;
+	font-family: lucida handwriting;
+}
+.main:hover{
+	color: black;
+	background: green;
+	height: 300px;
+}
+

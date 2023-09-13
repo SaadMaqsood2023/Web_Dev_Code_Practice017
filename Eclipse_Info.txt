@@ -1,0 +1,9 @@
+There are two types of Web projects: dynamic and static. Dynamic web projects can contain dynamic Java EE resources 
+such as servlets, JSP files, filters, and associated metadata, in addition to static resources such as images and 
+HTML files. Static web projects only contains static resources
+
+Static vs  Dynamic Webpages
+https://blog.hubspot.com/website/static-vs-dynamic-website#:~:text=Common%20examples%20of%20static%20websites,
+informational%20or%20read%2Donly%20sites.
+
+Saas Software.

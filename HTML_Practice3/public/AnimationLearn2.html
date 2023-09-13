@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Animation Learn</title>
+<style>
+	.main{
+		width: 700px;
+		height: 150px;
+		border: 2px black solid;
+		margin: 50px auto;
+		position: relative;
+	}
+	.box{
+		width: 200px;
+		height: 100px;
+		margin-top: 20px;
+		background: red;
+		animation: box 4s 2;
+		position: absolute;
+		animation-timing-function: ease;
+	}
+	
+	@keyframes box{
+		from{
+			left: 0px;
+		}
+		
+		to{
+			left: 500px;
+		}
+	}
+
+</style>
+</head>
+<body>
+	<div class="main">
+		<div class="box"></div>
+	</div>
+
+</body>
+</html>

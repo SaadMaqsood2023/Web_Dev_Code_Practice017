@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Display Grid</title>
+	<style>
+		.main{
+			width: 700px;
+			height: 600px;
+			border: 2px black solid;
+			margin: auto;
+			display: grid;
+			padding: 10px; /* For making gap between parent and child */
+			grid-template-columns: auto auto auto; /*150px 150px 150px 150px;*/
+			/*grid-column-gap: 50px;
+			grid-row-gap: 10px;*/
+			grid-gap: 30px 50px;
+		}
+		.main div{
+			padding: 50px;
+			font-size: 50px;
+			background: aqua;
+			border: 2px black solid;
+		}
+		#div1
+		{
+			/*grid-column-start: 1;
+			grid-column-end: 3;*/
+			grid-row-start: 1;
+			grid-row-end: 4;
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div id="div1">1</div>
+		<div>2</div>
+		<div>3</div>
+		<div>4</div>
+		<div>5</div>
+		<div>6</div>
+		<div>7</div>
+		<!-- <div>8</div>
+		<div>9</div> -->
+	</div>
+</body>
+</html>

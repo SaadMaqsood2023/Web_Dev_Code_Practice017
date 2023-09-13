@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Animation</title>
+<style>
+	.box-container{
+		width: 600px;
+		height: 600px;
+		border: 2px black solid;
+		margin: auto;
+		position: relative;
+	}
+	.box-container div{
+		width: 200px;
+		height: 200px;
+		background-color: red;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		/*animation-name: box;
+		animation-duration: 5s;*/
+		animation: box 5s 2; /*Name, duration, count*/  
+		animation-delay: 2s;
+		animation-fill-mode: both;/*forwards/backwards*/
+		animation-direction: alternate; /*reverse/alternate-reverse*/
+		/*animation-iteration-count: infinite;*/
+	}
+	@keyframes box{
+	
+	0%{
+		top: 0px;
+		left: 0px;
+		background: red;
+	}
+	12%{
+		top: 0px;
+		left: 200px;
+		background: rgb(25,37,88);
+	}
+	24%{
+		top: 0px;
+		left: 400px;
+		background: rgb(50,100,50);
+	}
+	36%{
+		top: 200px;
+		left: 400px;
+		background: rgb(150,10,50);
+	}
+	48%{
+		top: 400px;
+		left: 400px;
+		background: rgb(15,10,250);
+	}
+	60%{
+		top: 400px;
+		left: 200px;
+		background: rgb(70,200,15);
+	}
+	74%{
+		top: 400px;
+		left: 0px;
+		background: rgb(200,200,0);
+	}
+	87%{
+		top: 200px;
+		left: 0px;
+		background: rgb(50,250,70);
+	}
+	100%{
+		top: 0px;
+		left: 0px;
+		background: rgb(200,10,15);
+	}
+	
+	
+	
+	
+	}
+</style>
+</head>
+<body>
+	<div class="box-container">
+		<div>
+			
+		</div>
+	</div>
+</body>
+</html>

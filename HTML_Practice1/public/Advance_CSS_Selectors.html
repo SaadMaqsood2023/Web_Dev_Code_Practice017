@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Advance Selectors</title>
+<style type="text/css">
+	/* This will apply to every p tag inside a div 
+	div p{
+	background: rgba(230,203,32,0.7);
+	color: white;
+	} */
+	/* This will apply to p that is inside li which is then inside div 
+	div li p{
+	background: rgba(230,203,32,0.7);
+	color: white; */
+	/* Applies to p tag right inside div 
+	div > p{
+	background: rgba(230,203,32,0.7);
+	color: white; */
+	/* Applies if p is right after div i.e is next sibling of div */
+	div + p{
+	background: rgba(230,203,32,0.7);
+	color: white;
+	}
+	
+</style>
+</head>
+<body>
+	<div>
+		<p> This is a paragraph </p>
+		<div><p> This is paragraph inside a nested div</p></div>
+		<p> This is another paragraph </p>
+		<ul>
+		<li><p>This is another paragraph inside list</p></li>
+		</ul>
+	</div>
+	<p>This is a paragraph outside divisions</p>
+
+</body>
+</html>

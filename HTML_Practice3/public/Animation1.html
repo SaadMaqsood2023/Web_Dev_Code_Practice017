@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Animations</title>
+<style>
+	body {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 100vh;
+	}
+
+	.music {
+		width: 300px;
+		height: 200px;
+		position: relative;
+		display: inline-flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.music .bar {
+		width: 12px;
+		border-radius: 10px;
+		background: white;	
+		animation: movement 1.5s ease-in-out infinite;
+	}
+	@keyframes movement {
+		0%, 100%
+		{
+			height: 2px;
+		}
+		50%
+		{
+			height: 80px;
+		}
+	}
+	
+	
+	.music .bar:nth-child(1){
+		background: #7da588;
+		animation-delay: 1s;
+	}
+	
+	.music .bar:nth-child(2){
+		background: #92b147;
+		animation-delay: 8s;
+	}
+	
+	.music .bar:nth-child(3){
+		background: #7da588;
+		animation-delay: 6s;
+	}
+	
+	.music .bar:nth-child(4){
+		background: #92b147;
+		animation-delay: 4s;
+	}
+	
+	.music .bar:nth-child(5){
+		background: #7da588;
+		animation-delay: 2s;
+	}
+	
+	.music .bar:nth-child(6){
+		background: #92b147;
+		animation-delay: 2s;
+	}
+	
+	.music .bar:nth-child(7){
+		background: #7da588;
+		animation-delay: 4s;
+	}
+	
+	.music .bar:nth-child(8){
+		background: #92b147;
+		animation-delay: 6s;
+	}
+	
+	.music .bar:nth-child(9){
+		background: #7da588;
+		animation-delay: 8s;
+	}
+	
+	.music .bar:nth-child(10){
+		background: #92b147;
+		animation-delay: 1s;
+	}
+	
+	
+	
+
+</style>
+
+</head>
+<body>
+	<div class="music">
+		<div class="bar"></div>
+		<div class="bar"></div>
+		<div class="bar"></div>
+		<div class="bar"></div>
+		<div class="bar"></div>
+		<div class="bar"></div>
+		<div class="bar"></div>
+		<div class="bar"></div>
+		<div class="bar"></div>
+		<div class="bar"></div>
+		
+	</div>
+
+</body>
+</html>
